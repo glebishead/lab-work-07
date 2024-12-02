@@ -5,6 +5,10 @@ int main()
 {
     int matrix[100][100] = {0};
     int n;
+
+    for (int i = 0; i < 20; i++) {
+        std::cout << i << " " << is_primal(i) << std::endl;
+    }
     std::cout << "Enter n and matrix" << std::endl;
     std::cin >> n;
     
